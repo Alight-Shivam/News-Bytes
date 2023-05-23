@@ -67,7 +67,7 @@ static propTypes = {
                 {this.state.loading && <Spinner/>}
                 <div className="row">
                 {!this.state.loading && this.state.articles.map((element)=>{
-                   return <div className="col-md-3" key={element.url}> <Newsitems title={element.title?element.title.slice(0, 45):""} description={element.description?element.description.slice(0, 45):""} imageUrl={element.urlToImage} newsUrl={element.url} /></div>
+                   return <div className="col-md-4" key={element.url}> <Newsitems title={element.title?element.title.slice(0, 45):""} description={element.description?element.description.slice(0, 45):""} imageUrl={element.urlToImage} newsUrl={element.url} /></div>
                 })}
                 </div>
                 <div className="container d-flex justify-content-between">
