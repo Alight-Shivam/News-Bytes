@@ -15,10 +15,31 @@ export class Navbar extends Component {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/">Home</a>
+          <a className="nav-link" aria-current="page" href="/">Home</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/about">About</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/business">Business</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/entertainment">Entertainment</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/general">General</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/health">Health</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/science">Science</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/sports">Sports</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/technology">Technology</a>
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -31,9 +52,9 @@ export class Navbar extends Component {
             <li><a className="dropdown-item" href="/">Something else here</a></li>
           </ul>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a className="nav-link disabled" href='/'>Disabled</a>
-        </li>
+        </li> */}
       </ul>
       <form className="d-flex" role="search">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
