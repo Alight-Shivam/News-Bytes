@@ -15,7 +15,7 @@ export class Navbar extends Component {
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-      <li className="nav-item"><Link className="nav-link" aria-current="page" to="/">Home</Link></li>
+        <li className="nav-item"><Link className="nav-link" aria-current="page" to="/">Home</Link></li>
         <li className="nav-item"><Link className="nav-link" aria-current="page" to="/Business">Business</Link></li>
         <li className="nav-item"><Link className="nav-link" aria-current="page" to="/Entertainment">Entertainment</Link></li>
         <li className="nav-item"><Link className="nav-link" aria-current="page" to="/General">General</Link></li>
@@ -28,10 +28,10 @@ export class Navbar extends Component {
             Dropdown
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="/">Action</a></li>
-            <li><a className="dropdown-item" href="/">Another action</a></li>
+            <li><Link className="dropdown-item" to="/">Action</Link></li>
+            <li><Link className="dropdown-item" to="/">Another action</Link></li>
             <li><hr className="dropdown-divider" /></li>
-            <li><a className="dropdown-item" href="/">Something else here</a></li>
+            <li><Link className="dropdown-item" to="/">Something else here</Link></li>
           </ul>
         </li>
         {/* <li className="nav-item">
