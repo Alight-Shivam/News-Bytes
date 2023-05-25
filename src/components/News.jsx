@@ -74,7 +74,7 @@ export class News extends Component {
     render() {
         return (
             <>
-                <h1 className="text-center" style={{ margin: '35px 0px' }}>Top Headlines - {this.capitalizeFirstLetter(this.props.category)}</h1>
+                <h1 className="text-center" style={{ margin: '35px 0px',marginTop: '90px' }}>Top Headlines - {this.capitalizeFirstLetter(this.props.category)}</h1>
                 {/* this.state.loading && <Spinner /> */}
                 <InfiniteScroll
                     dataLength={this.state.articles.length}
